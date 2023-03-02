@@ -1,0 +1,100 @@
+html, body {
+  min-height: 100vh;
+}
+
+body {
+  color: white;
+  background: linear-gradient(to left, rgb(78, 84, 200), rgb(143, 148, 251));
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.aside {
+  height: 400px;
+}
+.main {
+  height: 400px;
+}
+.d-flex {
+  display: flex;
+}
+
+.task-title {
+  font-weight: 400;
+    font-size: 18px;
+  padding-top: 5px;
+  color: black;
+}
+.gray {
+  color: #BDBDBD;
+}
+.task-title--done {
+  text-decoration: line-through;
+  color: #5c821a;
+}
+.task-item__buttons {
+  display: flex;
+  column-gap: 5px;
+}
+.notify-holder {
+  height: 60px;
+  margin-bottom: 20px;
+}
+.empty-list {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.empty-list__title {
+  font-size: 28px;
+  margin-bottom: 15px;
+  font-weight: 300;
+}
+.empty-list__icon {
+  font-size: 32px;
+}
+.btn-action {
+    background-color: #e0e5ea;
+    padding: 8px 10px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 15px;
+    transition: opacity 0.2s ease-in;
+    opacity: 0.5;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-action:hover {
+    background-color: #f0c284;
+    opacity: 1;
+}
+
+.btn-action img {
+  pointer-events: none;
+}
+
+.float-right {
+  float: right;
+}
+
+.card-header{
+  color: black;
+}
+
+.button-sub {
+    background: #f0c284;
+
+}
+.button-sub:hover {
+    background: #5D26C1;
+    color: #E4E5E7;
+}
+
